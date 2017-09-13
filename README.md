@@ -7,9 +7,9 @@
 <!-- * Import BrowserRouter,Switch and Route from react-router-dom -->
 <!-- * Import components needed -->
 * Create the appropriate routes `{/* PUT YOUR ROUTES HERE */}`
-* Make sure the default route goes at the bottom
-* Make sure BrowserRouter wraps everything
-* Make sure you use the component prop, not render.
+<!-- * Make sure the default route goes at the bottom -->
+<!-- * Make sure BrowserRouter wraps everything -->
+<!-- * Make sure you use the component prop, not render. -->
 
 ### Routes
 <!-- * /              -> Dashboard
@@ -22,23 +22,23 @@
 * /profile/:id   -> Profile -->
 
 ### Create these components. The content of the components is not important, just put anything `<div> whatever </div>`
-* Charts.js
-* Tables.js
-* Settings.js
-* Wall.js
+<!-- * Charts.js -->
+<!-- * Tables.js -->
+<!-- * Settings.js -->
+<!-- * Wall.js -->
 
 ### Existing components
 * Profiles.js
-    * Import Link from react-router-dom
-    * change the `<a>` to be a Link that links to `/profile/ + user.id`
+    <!-- * Import Link from react-router-dom -->
+    <!-- * change the `<a>` to be a Link that links to `/profile/ + user.id` -->
 * Profile.js
-    * Change the hard coded 0 with the value from the parameter id
+    <!-- * Change the hard coded 0 with the value from the parameter id -->
 * Dashboard.js
 * Marquee
-    * replace the hard coded "hello" with the text parameter from the route
+    <!-- * replace the hard coded "hello" with the text parameter from the route -->
 
 ### SideNav
-* Import Link from react-router-dom
+<!-- * Import Link from react-router-dom -->
 * Create links to all the routes except Profile
 * Hard code some links to Marquee
     * /marquee/iloveroutes

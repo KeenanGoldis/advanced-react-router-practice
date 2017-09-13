@@ -1,7 +1,11 @@
 import React from "react";
-import {connect} from "react-redux";
-function Tasks(props) {
-  return ( <div className="col-lg-12">
-  <div> is a test</div>
-            </div>);
+
+function Tables(props) {
+  return (
+    <div className="col-lg-12">
+      <h2>This is a Tables test</h2>
+    </div>
+  );
 }
+
+export default Tables;
